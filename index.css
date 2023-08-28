@@ -1,0 +1,137 @@
+.div1 {
+    width: 100%;
+    /* display: block; */
+    /* background: wheat; */
+    height: max-content;
+    /* height: max-content; */
+    background: antiquewhite;
+    height: 350px;
+   
+}
+
+div#data-1 {
+    width: 40%;
+    /* display: inline; */
+    float: left;
+    margin: 25px;
+}
+
+div#data-2 {
+    width: 40%;
+    /* display: inline-block; */
+    float: right;
+}
+
+#img1{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 21px;
+    border-radius: 16px;
+}
+
+#data-1 h1 {
+    padding: 0px;
+    margin: 5px;
+    color: #d33d2b;
+    font-family: fantasy;
+}
+
+
+
+#data-1 p {
+    font-size: 20px;
+    font-style: oblique;
+    color: blue;
+    line-height: 28px;
+    /* margin-bottom: 10px; */
+}
+
+#data-1 a {
+    text-decoration: none;
+    font-size: 12px;
+    font-family: monospace;
+    color: #faebd7;
+    padding: 0px;
+    margin: 0px;
+    background: #dc2626;
+    padding: 5px 0px;
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 5px;
+    border: 1px dashed black;
+    font-weight: bolder;
+}
+
+
+    .back1 {
+        background: red;
+        width: 20px;
+        position: fixed;
+        height: 30px;
+        border: 8px dotted wheat;
+        border-radius: 50px;
+    }
+    
+    .back2 {
+        background: #bf0707db;
+        width: 30%;
+        height: 20%;
+        position: relative;
+        /* left: 563px; */
+        /* overflow: auto; */
+        top: 32px;
+        border-radius: 10px;
+        /* offset-rotate: reverse; */
+        /* transform: skew(10deg, 22deg); */
+        g); */
+        top: 32px;
+        transform: none;
+        transform: inherit;
+        transform: inherit;
+        transform: rotateZ(45deg);
+    }
+    
+    .back3 {
+        background: #6969ae;
+        width: 15%;
+        height: 40%;
+        position: relative;
+        left: 504px;
+        border-radius: 10%;
+        top: 217px;
+    }
+
+@keyframes back31 {
+    from{background-color: red;
+    
+    transform: rotateZ('0deg');
+    }
+    to{background-color: wheat;
+    transform: rotateZ('45deg');
+    }
+}
+
+    .back3:hover{
+
+
+        background-color: red;
+       animation-name: back31;
+       animation-duration: 4s;
+
+        
+    }
+
+ 
+    a#btn1:hover {
+        background: #dbf102;
+        color: #E91E63;
+        /* transition-delay: .5s; */
+        transition: .5s;
+        border: 1px solid purple;
+    }
+
+  
