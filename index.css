@@ -1,6 +1,15 @@
+#body{
+
+    display: block!important;
+    margin: 0px!important;
+background-color: red;
+}
+
+
+
 .div1 {
     width: 100%;
-    /* display: block; */
+    display: block; 
     /* background: wheat; */
     height: max-content;
     /* height: max-content; */
@@ -14,6 +23,7 @@ div#data-1 {
     /* display: inline; */
     float: left;
     margin: 25px;
+    padding: 25px;
 }
 
 div#data-2 {
@@ -32,7 +42,7 @@ div#data-2 {
 
 #data-1 h1 {
     padding: 0px;
-    margin: 5px;
+    margin: 2px 0;
     color: #d33d2b;
     font-family: fantasy;
 }
@@ -40,6 +50,7 @@ div#data-2 {
 
 
 #data-1 p {
+    margin: 2px 0;
     font-size: 20px;
     font-style: oblique;
     color: blue;
@@ -70,8 +81,9 @@ div#data-2 {
     .back1 {
         background: red;
         width: 20px;
-        position: fixed;
+        position: relative;
         height: 30px;
+        animation-name: animated-1;
         border: 8px dotted wheat;
         border-radius: 50px;
     }
@@ -87,7 +99,8 @@ div#data-2 {
         border-radius: 10px;
         /* offset-rotate: reverse; */
         /* transform: skew(10deg, 22deg); */
-        g); */
+        
+        
         top: 32px;
         transform: none;
         transform: inherit;
@@ -102,9 +115,9 @@ div#data-2 {
         position: relative;
         left: 504px;
         border-radius: 10%;
-        top: 217px;
+        top: 197px;
+        overflow: overlay;
     }
-
 @keyframes back31 {
     from{background-color: red;
     
@@ -134,4 +147,91 @@ div#data-2 {
         border: 1px solid purple;
     }
 
-  
+    div#data-3 h1 {
+        margin: 2px 0;
+        padding: 0px;
+        font-family: fantasy;
+        color: aliceblue;
+    }
+    div#data-3 p {
+        display: block;
+        line-height: 30px;
+        line-break: strict;
+        margin: 0px;
+        padding: 0px;
+        font-size: 19px;
+        font-family: fantasy;
+    }
+    div#data-3 {
+        width: 100%;
+        /* left: 80px; */
+        text-align: center;
+        background: #6b6bc2;
+        height: 270px;
+        display: block;
+        padding: 12px 0;
+    }
+    div#data-4 {
+        height: 500px;
+        background: #000000eb;
+        width: 100%;
+    }
+    div#data-4 img {
+        width: 50%;
+        position: absolute;
+        left: 26%;
+        bottom: -57%;
+        background: blue;
+    }
+    div#back4 {
+        width: 99.2%;
+        text-align: center;
+        font-size: 40px;
+        border: 5px dotted black;
+        font-family: monospace;
+        background: white;
+    }
+
+    div#\ back5 {
+        background: #FFC107;
+        width: 30px;
+        height: 30px;
+        position: relative;
+        left: 50%;
+        animation-name:animated-1;
+        animation-duration: 3s;
+        transition: 5s;
+    }
+
+    div#\ back6 {
+        background: #8a5a5a;
+        width: 30px;
+        height: 30px;
+        position: relative;
+        right: -52%;
+        animation-name: animated-2;
+        animation-duration: 3s;
+        transition: 5s;
+    }
+
+
+    @keyframes animated-2 {
+        from{
+            right: -52%;
+            transition: 5s;
+        }
+        to{
+            right: -100%;
+        }
+    }
+
+
+
+    @keyframes animated-1 {
+        from{
+           left:50% 
+        }
+        to{
+left: 0%;
+        }
+    }
